@@ -75,7 +75,7 @@ str	B1&2L01V037	133	-	142
  Save the file as dct in stata or notepad
  Step 2 
  Use  the fowlling command to extract the final data in stata format 
- infix "Path of dct file", using ("Path of raw.txt file")
+ infix using "Path of dct file", using ("Path of raw.txt file")
  This is the simplest way to extract nsso data in stata using the two step simple extracting procedure 
  The procedure is explained through pictures as well attached in the repository 
  For any quries or  data processing feel free to contact me at manzirkashmiri@gmail.com
